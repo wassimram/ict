@@ -21,5 +21,9 @@ class InfosController extends BaseController
         //return $name->email;
         return view('infos', ['name' => $name, 'title'=>$name->name, 'email'=>$name->email]);
     }
+    public function print($arg){
+        return "Hi {{$arg}} from print";
+    }
+
 
 }
