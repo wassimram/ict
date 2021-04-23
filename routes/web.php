@@ -26,7 +26,7 @@ Route::get('/was/', function () {
     $name =DB::table('users')->where('name','Wassim')->first();
     return $name->email;
 });
-
+Route::get('/cont/{arg}', 'App\Http\Controllers\InfosController@print');
 Route::get('/cont/{arg}', 'App\Http\Controllers\InfosController@show');
 Route::get('/insert/{arg}', 'App\Http\Controllers\UserCommentController@addRecords');
 
