@@ -26,4 +26,5 @@ class InfosController extends BaseController
     }
 
 
+
 }
