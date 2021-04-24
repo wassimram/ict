@@ -1,3 +1,3 @@
 <?php
 echo "Hi There";
-echo "Hoe to add new Line";
+echo "How to add new Line";
